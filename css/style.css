@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-Bold.woff2') format('woff2'),
+        url('/fonts/Poppins-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-Light.woff2') format('woff2'),
+        url('/fonts/Poppins-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-Regular.woff2') format('woff2'),
+        url('/fonts/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", "Arial", sans-serif;
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    width: 1378px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero-desc{
+    display: flex;
+    padding: 38px 15px;
+}
+
+.hero-img{
+    width: 737px;
+    height: 825px;
+    padding: 671px 233px 55px 69px;
+    background-image: url('/images/hero-img.png');
+    margin-right: 111px;
+}
+
+.hero-title{
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 55px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.hero-text{
+    font-size: 25px;
+    line-height: 37px;
+    color: #fff;
+}
+
+.hero-info{
+    width: 454px;
+    padding-top: 10px;
+}
+
+.logo-link{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+    margin-bottom: 67px;
+    margin-right: -50px;
+}
+
+.welcome-text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.log-in-div{
+    width: 329px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f8eddd;
+    border-radius: 33px;
+    padding: 10px 13px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 52px;
+}
+
+.btn{
+    background-color: transparent;
+    border-radius: 33px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9e896a;
+    text-decoration: none;
+}
+
+.btn:first-child{
+    background-color: #9e896a;
+    color: #fff;
+    padding: 8px 52px;
+}
+
+.btn:last-child{
+    padding: 8px 41px;
+}
+
+.btn:last-child:hover{
+    background-color: #9e896a;
+    color: #fff;
+}
+
+.log-in-text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #5b5b5b;
+    margin-bottom: 42px;
+}
+
+.site-form{
+    width: 435px;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.label-input{
+    margin-top: 12px;
+    background-color: #fff;
+    border: 1px solid #9E896A;
+    border-radius: 40px;
+    padding: 16px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: #acacac;
+}
+
+.label:nth-child(2){
+    margin-bottom: 22px;
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+    margin-bottom: 62px;
+}
+
+.label-txt{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000;
+}
+
+.remember-input{
+    margin-right: 10px;
+}
+
+.password-forget{
+    margin-left: 209px;
+    text-decoration: none;
+}
+
+.last-div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.last-btn{
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    border: none;
+    padding: 13px 95px;
+    background: #9E896A;
+    border-radius: 36px;
+    cursor: pointer;
+}
+
+.page{
+    margin-bottom: 35px;
+}
+
+.page-btn{
+    background-color: transparent;
+    border-radius: 33px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9e896a;
+    text-decoration: none;
+}
+
+.page-btn:last-child{
+    background-color: #9e896a;
+    color: #fff;
+    padding: 8px 41px;
+}
+
+.page-btn:first-child{
+    padding: 8px 52px;
+}
+
+.page-btn:first-child:hover{
+    background-color: #9e896a;
+    color: #fff;
+}
+
+.page-txt{
+    margin-bottom: 32px;
+}
