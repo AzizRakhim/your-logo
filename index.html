@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Logo</title>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -12,6 +13,9 @@
     <main class="site-main">
         <section id="hero">
             <div class="container">
+                <a class="logo-link" href="#">
+                    Your Logo
+                </a>
                 <div class="hero-desc">
                     <div class="hero-img">
                         <h2 class="hero-title">
@@ -22,9 +26,6 @@
                         </p>
                     </div>
                     <div class="hero-info">
-                        <a class="logo-link" href="#">
-                            Your Logo
-                        </a>
                         <p class="welcome-text">
                             Welcome to lorem..!
                         </p>
@@ -32,7 +33,7 @@
                             <a class="btn" href="#">
                                 Login
                             </a>
-                            <a class="btn" target="_blank" href="register.html">
+                            <a class="btn" href="register.html">
                                 Register
                             </a>
                         </div>
@@ -40,22 +41,30 @@
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         </p>
                         <form class="site-form">
-                            <label class="label" for="user-name">
-                                User name
+                            <div class="form-item">
+                                <label class="label" for="user-name">
+                                    User name
+                                </label>
                                 <input class="label-input" type="text" maxlength="30" minlength="2" id="user-name" name="user-name" placeholder="Enter your User name">
-                            </label>
-                            <label class="label" for="password">
-                                Password
+                            </div>
+                            <div class="form-item form-password">
+                                <label class="label" for="password">
+                                    Password
+                                </label>
                                 <input class="label-input" type="password" id="password" name="password" placeholder="Enter your Password">
-                            </label>
-                            <label class="remember label-txt" for="remember-me">
+                                <button class="eye-btn">
+                                    <i class='bx bxs-low-vision'></i>
+                                </button>
+                            </div>
+                            <div class="remember-form">
+                                <label class="remember" for="remember-me"> Remember me
+                                </label>
                                 <input class="remember-input" type="checkbox" name="remember-me" id="remember-me">
-                                Remember me
-                                <a class="password-forget label-txt" target="_blank" href="#">
+                                <a class="remember" target="_blank" href="#">
                                     Forgot Password ?
                                 </a>
-                            </label>
-                            <div class="last-div">
+                            </div>
+                            <div class="btn-div">
                                 <button class="last-btn" type="submit"> 
                                     Login
                                 </button>

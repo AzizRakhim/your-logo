@@ -40,13 +40,15 @@ body{
 }
 
 .container{
-    width: 1378px;
+    width: 1302px;
     margin-right: auto;
     margin-left: auto;
 }
 
 .hero-desc{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 38px 15px;
 }
 
@@ -55,7 +57,7 @@ body{
     height: 825px;
     padding: 671px 233px 55px 69px;
     background-image: url('/images/hero-img.png');
-    margin-right: 111px;
+    border-radius: 29px;        
 }
 
 .hero-title{
@@ -74,7 +76,6 @@ body{
 
 .hero-info{
     width: 454px;
-    padding-top: 10px;
 }
 
 .logo-link{
@@ -85,9 +86,10 @@ body{
     font-size: 20px;
     line-height: 30px;
     color: #000;
-    margin-bottom: 67px;
-    margin-right: -50px;
-}
+    position: relative;
+    bottom: -80px;
+    right: -35px;
+} 
 
 .welcome-text{
     font-size: 16px;
@@ -141,20 +143,24 @@ body{
 }
 
 .site-form{
-    width: 435px;
+    width: 454px;
 }
 
-.label{
+.form-item{
     display: flex;
     flex-direction: column;
-    font-size: 16px;
-    line-height: 24px;
-    color: #000;
     margin-bottom: 30px;
 }
 
+.label{
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    margin-bottom: 12px;
+}
+
 .label-input{
-    margin-top: 12px;
+    width: 435px;
     background-color: #fff;
     border: 1px solid #9E896A;
     border-radius: 40px;
@@ -165,35 +171,49 @@ body{
     color: #acacac;
 }
 
-.label:nth-child(2){
+.label-input:focus{
+    outline: none;
+    color: #000;
+}
+
+.form-password{
     margin-bottom: 22px;
 }
 
-.remember{
+.eye-btn{
+    width: 16px;
+    height: 16px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    bottom: 35px;
+    right: -390px;
+}
+
+.remember-form{
     display: flex;
     align-items: center;
     margin-bottom: 62px;
 }
 
-.label-txt{
+.remember{
     font-weight: 300;
     font-size: 12px;
     line-height: 18px;
     color: #000;
-}
-
-.remember-input{
+    text-decoration: none;
     margin-right: 10px;
 }
 
-.password-forget{
-    margin-left: 209px;
-    text-decoration: none;
+.remember-input{
+    margin-right: 209px;
 }
 
-.last-div{
+.btn-div{
     display: flex;
     justify-content: flex-end;
+    width: 435px;
 }
 
 .last-btn{
@@ -205,10 +225,6 @@ body{
     background: #9E896A;
     border-radius: 36px;
     cursor: pointer;
-}
-
-.page{
-    margin-bottom: 35px;
 }
 
 .page-btn{
@@ -237,4 +253,8 @@ body{
 
 .page-txt{
     margin-bottom: 32px;
+}
+
+.page-password{
+    margin-bottom: 55px;
 }
